@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/app.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+    </style>
+    <title>Шаблон 1</title>
+</head>
+<body>
+<!--настроить градиент не затрагивающий body-->
+        <header>
+            <div class="container">
+                <nav class="d-f jc-sp ai-cen">
+                    <div class="d-f jc-cen ai-cen gap100">
+                        <div class="logo_nav">
+                            <img src="assets/logo.png" />
+                        </div>
+                        <div class="block1_nav d-f gap15">
+                            <p>About</p>
+                            <p>Services</p>
+                            <p>Works</p>
+                            <p>Blog</p>
+                        </div>
+                    </div>
+                    <div class="menu_nav d-f jc-cen ai-cen">
+                        <div class="children_menu_nav">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="d-f block1_main">
+                    <div class="mt-100">
+                        <p class="text1 mt-20 mb-20">Hello,</p>
+                        <p class="text2 mt-20 mb-20">Pavel Fedorov</p>
+                        <p class="text3 m-0">a frontend-developer</p>
+                        <button class="text4 button1_top">Let's Talk</button>
+                    </div>
+                    <div class="position_image">
+                        <img src="assets/image1.svg"/>
+                    </div>
+                </div>
+                <div>
+                    <p class="text5 trait1 max-width-70">Services</p>
+                    <p class="text6 mt-15 mb-0">What  actually <br/>I love to do</p>
+                </div>
+                <div class="d-f jc-sp ai-cen flex-wrap">
+                    <div class="card">
+                        <div class="d-f gap20 jc-s ai-cen">
+                            <img src="assets/logo2phone.png"/>
+                            <p class="text4_black">UX Research</p>
+                        </div>
+                        <p class="text7 mt-20">
+                            New demos are continually added and buying a single license for Mak gives you access to all of
+                            what's shown below, plus everything that will be added in the future.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="d-f gap20 jc-s ai-cen">
+                            <img src="assets/logo3phone.png"/>
+                            <p class="text4_black">Brand Designh</p>
+                        </div>
+                        <p class="text7 mt-20">
+                            New demos are continually added and buying a single license for Mak gives you access to all of
+                            what's shown below, plus everything that will be added in the future.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="d-f gap20 jc-s ai-cen">
+                            <img src="assets/logo4phone.png"/>
+                            <p class="text4_black">Web Development</p>
+                        </div>
+                        <p class="text7 mt-20">
+                            New demos are continually added and buying a single license for Mak gives you access to all of
+                            what's shown below, plus everything that will be added in the future.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bgc_gradient pt-100 pt-20">
+                <div class="container">
+                    <p class="text5 trait1 max-width-70">Portfolio</p>
+                    <div class="d-f jc-sp ai-start">
+                        <p class="text6 mt-15 mb-0">All Creative <br/>Projects</p>
+                        <div class="d-f jc-s gap10 ai-cen ">
+                            <p class="trait2 text4_black">
+                                Explore More
+                            </p>
+                            <div class="link_animation1">
+                                <img src="assets/arrow_right.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-f flex-wrap jc-sp ai-cen mt-30 pb-30">
+                    <!--настроить картинки и отступ-->
+                        <img class="max-width" src="assets/image2.png">
+                        <img class="max-width" src="assets/image3.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pt-100 pt-20">
+                <div class="container">
+                    <p class="text5 trait1 max-width-70">Clients</p>
+                    <div class="d-f jc-sp ai-start">
+                        <p class="text6 mt-15 mb-0">Big Deal <br/>With</p>
+                    </div>
+                    <div class="ml-30 mr-30 mt-50 gap10 d-f flex-wrap jc-sp ai-cen mt-30">
+                        <!--настроить картинки и отступ-->
+                        <div class="card2 d-f jc-cen ai-cen">
+                            <div>
+                                <div class="d-f jc-cen ai-start">
+                                    <img src="assets/card2one.png"/>
+                                </div>
+                                <div class="d-f jc-cen ai-end description">
+                                    <p class="text5_black">Slack</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card3 d-f jc-cen ai-cen">
+                            <div>
+                                <div class="d-f jc-cen ai-start">
+                                    <img src="assets/card2two.png"/>
+                                </div>
+                                <div class="d-f jc-cen ai-end description">
+                                    <p class="text5_black">Medium</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card4 d-f jc-cen ai-cen">
+                            <div>
+                                <div class="d-f jc-cen ai-start">
+                                    <img src="assets/card2three.png"/>
+                                </div>
+                                <div class="d-f jc-cen ai-end description">
+                                    <p class="text5_black">Microsoft</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card5 d-f jc-cen ai-cen">
+                            <div>
+                                <div class="d-f jc-cen ai-start">
+                                    <img src="assets/card2four.png"/>
+                                </div>
+                                <div class="d-f jc-cen ai-end description">
+                                    <p class="text5_black">Zeplin</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card6 d-f jc-cen ai-cen">
+                            <div>
+                                <div class="d-f jc-cen ai-start">
+                                    <img src="assets/card2_5.png"/>
+                                </div>
+                                <div class="d-f jc-cen ai-end description">
+                                    <p class="text5_black">Shopity</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pt-50 bgc_gradient2 mt-50">
+                <div class="container">
+                    <p class="text5 trait1 max-width-70">Testimonials</p>
+                    <div class="d-f jc-sp ai-start">
+                        <p class="text6 mt-15 mb-0">What People <br/>Says</p>
+                    </div>
+                    <!--карусель-->
+                    </div>
+                    <div class="center mt-30 pb-50 position1">
+                        <img class="photo_blur1" src="assets/photo1_blur.png"/>
+                        <img class="photo_blur2" src="assets/photo2_blur.png"/>
+                        <img class="photo_blur3" src="assets/photo3_blur.png"/>
+                        <img class="photo_blur4" src="assets/photo4_blur.png"/>
+                        <div class="wrapper">
+
+                            <div class="inner">
+                                <div class="card_carusel jc-cen ai-cen mt-30 text7_bold">
+                                    <div class="width1p">
+                                        <img src="assets/quotes.png"/>
+                                        <p class="mb-0">
+                                            Quote testimonials demonstrate support
+                                            for your product or feature from a user who has
+                                            experience with it. This can be
+                                            significantly more effective than
+                                            traditional advertising methods as most
+                                            consumers will trust.
+                                        </p>
+                                        <img class="mt-50" src="assets/photo_main.png"/>
+                                        <p class="text8 mt-20 mb-0 ">Michal John1</p>
+                                        <p class="text7_min_height mt-5">CEO of MZP</p>
+                                    </div>
+                                </div>
+                                <div class="card_carusel jc-cen ai-cen mt-30 text7_bold">
+                                    <div class="width1p">
+                                        <img src="assets/quotes.png"/>
+                                        <p class="mb-0">
+                                            Quote testimonials demonstrate support
+                                            for your product or feature from a user who has
+                                            experience with it. This can be
+                                            significantly more effective than
+                                            traditional advertising methods as most
+                                            consumers will trust.
+                                        </p>
+                                        <img class="mt-50" src="assets/photo_main.png"/>
+                                        <p class="text8 mt-20 mb-0 ">Michal John2</p>
+                                        <p class="text7_min_height mt-5">CEO of MZP</p>
+                                    </div>
+                                </div>
+                                <div class="card_carusel jc-cen ai-cen mt-30 text7_bold">
+                                    <div class="width1p">
+                                        <img src="assets/quotes.png"/>
+                                        <p class="mb-0">
+                                            Quote testimonials demonstrate support
+                                            for your product or feature from a user who has
+                                            experience with it. This can be
+                                            significantly more effective than
+                                            traditional advertising methods as most
+                                            consumers will trust.
+                                        </p>
+                                        <img class="mt-50" src="assets/photo_main.png"/>
+                                        <p class="text8 mt-20 mb-0 ">Michal John3</p>
+                                        <p class="text7_min_height mt-5">CEO of MZP</p>
+                                    </div>
+                                </div>
+                                <div class="card_carusel jc-cen ai-cen mt-30 text7_bold">
+                                    <div class="width1p">
+                                        <img src="assets/quotes.png"/>
+                                        <p class="mb-0">
+                                            Quote testimonials demonstrate support
+                                            for your product or feature from a user who has
+                                            experience with it. This can be
+                                            significantly more effective than
+                                            traditional advertising methods as most
+                                            consumers will trust.
+                                        </p>
+                                        <img class="mt-50" src="assets/photo_main.png"/>
+                                        <p class="text8 mt-20 mb-0 ">Michal John4</p>
+                                        <p class="text7_min_height mt-5">CEO of MZP</p>
+                                    </div>
+                                </div>
+                                <div class="card_carusel jc-cen ai-cen mt-30 text7_bold">
+                                    <div class="width1p">
+                                        <img src="assets/quotes.png"/>
+                                        <p class="mb-0">
+                                            Quote testimonials demonstrate support
+                                            for your product or feature from a user who has
+                                            experience with it. This can be
+                                            significantly more effective than
+                                            traditional advertising methods as most
+                                            consumers will trust.
+                                        </p>
+                                        <img class="mt-50" src="assets/photo_main.png"/>
+                                        <p class="text8 mt-20 mb-0 ">Michal John5</p>
+                                        <p class="text7_min_height mt-5">CEO of MZP</p>
+                                    </div>
+                                </div>
+                                <div class="card_carusel jc-cen ai-cen mt-30 text7_bold">
+                                    <div class="width1p">
+                                        <img src="assets/quotes.png"/>
+                                        <p class="mb-0">
+                                            Quote testimonials demonstrate support
+                                            for your product or feature from a user who has
+                                            experience with it. This can be
+                                            significantly more effective than
+                                            traditional advertising methods as most
+                                            consumers will trust.
+                                        </p>
+                                        <img class="mt-50" src="assets/photo_main.png"/>
+                                        <p class="text8 mt-20 mb-0 ">Michal John6</p>
+                                        <p class="text7_min_height mt-5">CEO of MZP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="map">
+                            <button class="active first"></button>
+                            <button class="second"></button>
+                            <button class="third"></button>
+                            <button class="four"></button>
+                            <button class="five"></button>
+                            <button class="six"></button>
+                        </div>
+
+                    </div>
+                </div>
+            <div class="pb-100">
+                <div class="container">
+                    <p class="text5 trait1 max-width-100">Contact Me</p>
+                    <div class="d-f jc-sp ai-start">
+                        <p class="text6 mt-15 mb-0 max-width-550">Let me know if you want to talk
+                            about a potential collaboration.
+                            I'm available for freelance work.
+                        </p>
+                        <p class="trait2 text3_purple">
+                            <a href="mailto:fedorovpavel0007@yandex.ru">fedorovpavel0007@yandex.ru</a>
+
+
+                        </p>
+                    </div>
+                    <div class="my_input mt-50">
+                        <input placeholder="What’s your name?"/>
+                    </div>
+                    <div class="my_input">
+                        <input placeholder="Your email"/>
+                    </div>
+                    <div class="my_input">
+                        <input placeholder="Tell me about your project"/>
+                    </div>
+                    <button class="text4 button1_top">Get a Quote</button>
+
+
+                </div>
+            </div>
+        </main>
+        <footer class="bgc_gradient pt-30 pb-30">
+            <div class="container">
+                <div class="d-f ai-cen jc-sb">
+                    <p class="text5">Number:<a href="tel:89513079489">89513079489</a></p>
+                    <div class="d-f jc-cen ai-cen gap40 img_width2">
+                        <a href="https://vk.com/pavel2007x"><img src="assets/footer1.png"/></a>
+                        <a href="mailto:fedorovpavel0007@yandex.ru"><img src="assets/footer2.png"/></a>
+                        <a href="https://web.telegram.org/k/#@Broker_front"><img src="assets/footer3.png"/></a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+<script src="js/index.js"></script>
+</body>
+</html>
